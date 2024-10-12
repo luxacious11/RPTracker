@@ -10,7 +10,7 @@ If you want to support the developer who made it (me!), then you can head on ove
 **Initial Setup**
 1. Fork this repository to your own Github account and clone that fork onto your local system.
 2. Change directory into the cloned repository (`cd repositoryname`) and run `yarn install`. After this, you can run `yarn build` to build styles, scripts, and html pages once. Run `yarn watch` to build continuously whenever one of the related files change.
-3. Create a new Google Sheet using [this template](https://docs.google.com/spreadsheets/d/1lhUkaFrGjMxKfoGQ008JTgAaWlK2eCEUPTOth0_g4C4/edit?usp=sharing).
+3. Create a new Google Sheet using the template linked in the downloaded version of this repo.
 4. In Google Sheets, click Extensions > Apps Script. Confirm there is about 202 lines of code there. If not, copy the contents of `googleSheets.txt` from Github into this section.
 5. While in Apps Script, click on the `doGet` dropdown. Change this to `setup`. Then, click Run and go through the authentication process. If it claims that 'Google hasn’t verified this app', click through "Advanced > Go to Untitled project (unsafe)" to finish the remaining authentication steps.
 6. Click on "Deploy > New Deployment". Ensure "Web App" is selected and that "Who has Access" is set to "Anyone". It will take you through authentication a second time. After, it will provide you a Deployment ID. Copy this and paste it in the `source/js/settings.js` file within the quotations following `const deployID = `.
