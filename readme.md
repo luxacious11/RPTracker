@@ -1,3 +1,6 @@
+**Using this Tracker?**
+If you want to support the developer who made it (me!), then you can head on over to [my Ko-Fi page](https://ko-fi.com/Luxacious11)! I'd greatly appreciate it <3
+
 **Before Setup**
 1. Ensure your system has NPM installed. This project's version of Yarn and Gulp run well on v12.0.0 if installing with NVM (or the Windows equivalent). If you don't have NPM yet, I recommend installing NVM instead as this allows you to change Node versions as needed with other projects. NVM resources are:
     - OSX: https://github.com/nvm-sh/nvm
