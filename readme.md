@@ -2,11 +2,11 @@
 1. Ensure your system has NPM installed. This project's version of Yarn and Gulp run well on v12.0.0 if installing with NVM (or the Windows equivalent). If you don't have NPM yet, I recommend installing NVM instead as this allows you to change Node versions as needed with other projects. NVM resources are:
     - OSX: https://github.com/nvm-sh/nvm
     - Windows: https://github.com/coreybutler/nvm-windows 
-2. Ensure you have a code editor you are comfortable with and a way to run CLI commands.
+2. Ensure you have a code editor you are comfortable with and have a way to run CLI commands. All CLI commands will be provided for you below!
 
 **Initial Setup**
 1. Fork this repository to your own Github account and clone that fork onto your local system.
-2. Change directory into the cloned repository and run `yarn install`. After this, you can run `yarn build` to build styles, scripts, and html pages once. Run `yarn watch` to build continuously whenever one of the related files change.
+2. Change directory into the cloned repository (`cd repositoryname`) and run `yarn install`. After this, you can run `yarn build` to build styles, scripts, and html pages once. Run `yarn watch` to build continuously whenever one of the related files change.
 3. Create a new Google Sheet using [this template](https://docs.google.com/spreadsheets/d/1lhUkaFrGjMxKfoGQ008JTgAaWlK2eCEUPTOth0_g4C4/edit?usp=sharing).
 4. In Google Sheets, click Extensions > Apps Script. Confirm there is about 202 lines of code there. If not, copy the contents of `googleSheets.txt` from Github into this section.
 5. While in Apps Script, click on the `doGet` dropdown. Change this to `setup`. Then, click Run and go through the authentication process. If it claims that 'Google hasn’t verified this app', click through "Advanced > Go to Untitled project (unsafe)" to finish the remaining authentication steps.
