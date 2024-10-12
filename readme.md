@@ -1,5 +1,7 @@
 **Before Setup**
-1. Ensure your system has NPM installed. This project's version of Yarn and Gulp run well on v12.0.0 if installing with NVM (or the Windows equivalent).
+1. Ensure your system has NPM installed. This project's version of Yarn and Gulp run well on v12.0.0 if installing with NVM (or the Windows equivalent). If you don't have NPM yet, I recommend installing NVM instead as this allows you to change Node versions as needed with other projects. NVM resources are:
+    - OSX: https://github.com/nvm-sh/nvm
+    - Windows: https://github.com/coreybutler/nvm-windows 
 2. Ensure you have a code editor you are comfortable with and a way to run CLI commands.
 
 **Initial Setup**
